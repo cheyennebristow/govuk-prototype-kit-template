@@ -19,4 +19,13 @@ How to use the GOV.UK Prototype kit within Github Codespaces
 - In the Terminal at the bottom, type npm run dev
 - Click Ports. There should be a 3000 version you can open locally
 - Create your prototype. Guidance on [how to make a build a basic prototype](https://prototype-kit.service.gov.uk/docs/make-first-prototype/start).
-- Commit your changes and share the repository with a developer to host on a platform like Heroku
+- Commit your changes
+
+How to host your prototype on Heroku
+- Either share your repo with a developer who has access to Heroku. If you have access to Heroku:
+- Login to heroku
+- Click on dashboard and your app
+- Click deploy
+- Select Github as your deployment method
+- Click connect, search for your github repository and connect it
+- It will now deploy and a link will be available once done
